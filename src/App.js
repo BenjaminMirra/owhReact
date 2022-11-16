@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import fotoAvatar from './images/fotoCV.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>OWH 2020.1 - ZYMO Tech</h1>
+      <div className="imagecontainer">
+        <img src={fotoAvatar} alt="avatar"></img>
+      </div>
+      <div className="footer">
+          <h4>+54 9 3813000816</h4>
+          <h4>Mirra Benjamín</h4>
+          <h4>mirrabenjamin@gmail.com</h4>
+        </div>
     </div>
   );
 }
